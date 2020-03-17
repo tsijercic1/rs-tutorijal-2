@@ -7,10 +7,11 @@
 <?import java.net.URL?>
 <BorderPane xmlns="http://javafx.com/javafx/10.0.2-internal"
             xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="ba.unsa.etf.rs.tutorijal2.Controller" styleClass="crvenaKlasa">
-   <stylesheets>
-      <URL value="@/css/style.css"/>
-   </stylesheets>
+            fx:controller="ba.unsa.etf.rs.tutorijal2.Controller"
+            stylesheets="/css/style.css" styleClass="crvenaKlasa">
+<!--   <stylesheets>-->
+<!--      <URL value="@/css/style.css"/>-->
+<!--   </stylesheets>-->
    <center>
       <GridPane alignment="center" hgap="10" vgap="10">
          <rowConstraints>

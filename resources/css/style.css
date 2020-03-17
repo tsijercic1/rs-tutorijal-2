@@ -3,9 +3,14 @@
 }
 
 .crvenaKlasa {
-    -fx-background-color: blue;
+    -fx-background-image: url("/img/button.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
 }
 
 Button {
     -fx-background-color: greenyellow;
+    -fx-graphic: url("/img/button.jpg");
 }
+
+
