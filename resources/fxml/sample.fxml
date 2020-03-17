@@ -4,7 +4,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rs.tutorijal2.Controller">
+<BorderPane xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ba.unsa.etf.rs.tutorijal2.Controller">
    <center>
       <GridPane alignment="center" hgap="10" vgap="10">
          <rowConstraints>
@@ -16,9 +18,9 @@
             <ColumnConstraints />
          </columnConstraints>
          <children>
-            <Label text="Prezime" GridPane.rowIndex="1" />
+            <Label text="Prezime" GridPane.rowIndex="1" fx:id="prezimeLabela"/>
             <Label text="Ime" />
-            <Button mnemonicParsing="false" text="ProsiriIme" GridPane.columnIndex="1" />
+            <Button mnemonicParsing="false" text="ProsiriIme" GridPane.columnIndex="1" onAction="#onClick"/>
          </children>
          <padding>
             <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
