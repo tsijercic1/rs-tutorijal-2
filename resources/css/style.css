@@ -1,0 +1,11 @@
+#prezimeLabela {
+    -fx-background-color: red;
+}
+
+.crvenaKlasa {
+    -fx-background-color: blue;
+}
+
+Button {
+    -fx-background-color: greenyellow;
+}

@@ -10,7 +10,6 @@ public class Controller {
     public void onClick(ActionEvent actionEvent) {
         System.out.println("Button is pressed!");
         prezimeLabela.setText(prezimeLabela.getText() + prezimeLabela.getText());
-
     }
 
 }
